@@ -1,7 +1,3 @@
 #!/usr/bin/ruby -wKU
 
-task :default => :run
-
-task :run do
-  require './lib/hello'
-end
+#it's not important what it's in here
