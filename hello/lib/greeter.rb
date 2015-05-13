@@ -1,7 +1,8 @@
-#!/usr/bin/ruby -wKU
-
-task :default => :run
-
-task :run do
-  ruby '-Ilib', 'lib/hello.rb'
+class Greeter
+  def initialize(who)
+    @who = who
+  end
+  def greet
+    "Hello, #{@who}"
+  end
 end
